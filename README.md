@@ -6,5 +6,38 @@ They help create isolated environments for your projects, ensuring each project 
 
 ## Testing
 
+Allows us to confirm whether the application works as intended or not.
+Helps catch bugs early and ensure that your code behaves smoothly.
 
+### Types of Testing
 
+Manual vs Automated
+    - Manual
+        - When a person manually performs tasks, based on events.
+    - Automated
+        - Programmed tests, also called scripts, to automatically perform tasks without human involvement.
+
+- Unit Testing
+    - Testing specific components / functions / methods.
+
+- Integration Testing
+    - Testing the entire application.
+    - Testing the compatibility with other modules / packages.
+
+- Chaos Testing
+    - Making a program break on purpose by disabling a function or feature to see how errors are handled.
+
+- Stress Testing
+    - Testing in high volumes of data / inputs (depending on use-case)
+
+- E2E Testing
+    - Testing done towards the end of the project, when its almost complete. To ensure things work as expected.
+
+> NOTE: Great idea to organise your directory structure for maintenance and easy access.
+
+### pytest
+
+- Powerful and user friendly testing framework
+- Simple yet powerful
+- pytest follows the principle of 'assert'-ing that things are true in order for a test to pass.
+- For a test to pass, all assertions must be true.
