@@ -41,3 +41,20 @@ Manual vs Automated
 - Simple yet powerful
 - pytest follows the principle of 'assert'-ing that things are true in order for a test to pass.
 - For a test to pass, all assertions must be true.
+
+#### Reading test output
+
+- `.` means pass
+- `F` means fail
+- `E` means error
+- `X` means skipped
+
+#### Exceptions
+- Used to check what happens when things go wrong.
+- How your program is handled when things go wrong.
+
+#### Parameterized tests
+
+- Test cases that can be run with different inputs.
+- Can be used to test different combinations of inputs.
+- Make sure you initialise the packages to use them in different folders.
