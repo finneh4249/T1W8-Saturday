@@ -1,4 +1,4 @@
-import pytest
+import pytest # type: ignore
 from src.calculator import add, subtract, multiply, divide
 
 
@@ -59,7 +59,6 @@ def test_multiply(a, b, result):
 @pytest.mark.parametrize(
     "a, b, result",
     [
-        (0, 0, ValueError("Cannot divide by zero")),
         (1, 1, 1),
         (2, 2, 1),
         (3, 3, 1),
@@ -73,3 +72,8 @@ def test_multiply(a, b, result):
 )   
 def test_divide(a, b, result):
     assert divide(a, b) == result
+
+def test_divide_by_zero():
+    with pytest.raises(ValueError):
+        divide(10, 0)
+        
