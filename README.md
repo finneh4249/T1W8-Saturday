@@ -58,3 +58,20 @@ Manual vs Automated
 - Test cases that can be run with different inputs.
 - Can be used to test different combinations of inputs.
 - Make sure you initialise the packages to use them in different folders.
+
+#### Fixtures
+
+- Arrange and prepare data before running tests.
+- Reusable code
+- Fixture Scopes: Function, Class, Module, Package, Session (When to destroy the fixture)
+
+## File Handling
+
+- Read and write data from and to files
+- Before performing any operatin its important to open the file, and close when you're done.
+- Operations:
+    - Open
+    - Read
+    - Write
+    - Close
+- 'with' statement:
